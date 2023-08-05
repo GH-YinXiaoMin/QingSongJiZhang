@@ -46,8 +46,8 @@ ipch/
 
 # Visual Studio profiler
 *.psess
-*.vsp
-*.vspx
+.vsp
+.vspx
 
 # Guidance Automation Toolkit
 *.gpState
@@ -78,4 +78,5 @@ ModelManifest.xml
 
 #zzzili
 v15/
+FileContentIndex/
 .gitignore
