@@ -7,4 +7,6 @@ public class DataBaseAttribute
     public string DatabaseName { get; set; } = null!;
 
     public string BooksCollectionName { get; set; } = null!;
+
+    public string Records { get; set; } = null!;
 }
