@@ -9,6 +9,16 @@ public class RecordsServieces:BaseOperations<Record>
     {
 
     }
+    public async Task<Response> CreateOneRecord(RecordWithoutId newRecord)
+    {
+        Record record = new Record(newRecord);
+        var flag = await CreatOneAsync(record);
+        if (flag)
+        {
+            return new Response(StandardAction.Create.ToString(), StandardModel.Record.ToString(), (int)StandardStatus.Success);
+        }
+        return new Response(StandardAction.Create.ToString(), StandardModel.Record.ToString(), (int)StandardStatus.Failure);
+    }
 
     public async Task<ResponseWithData<List<Record>>> GetAllRecordsAsync()
     {

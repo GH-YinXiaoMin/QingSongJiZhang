@@ -33,7 +33,7 @@ public class BaseOperations<T>
     {
         try
         {
-            await _baseOperation.InsertOneAsync(t);
+            await _baseOperation.InsertOneAsync(t);     
             return true;
         }
         catch (Exception)

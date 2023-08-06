@@ -9,9 +9,7 @@ builder.Services.Configure<DataBaseAttribute>(builder.Configuration.GetSection("
 builder.Services.AddSingleton<RecordsServieces>();
 
 builder.Services.AddGraphQLServer()
-                .AddQueryType<Query>();
-
-builder.Services.AddGraphQLServer()
+                .AddQueryType<Query>()
                 .AddMutationType<Mutation>();
 
 // Add services to the container.

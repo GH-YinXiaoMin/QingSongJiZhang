@@ -12,7 +12,7 @@ public class Query
 {
     private readonly RecordsServieces _recordsServieces;
 
-    public Query( IOptions<DataBaseAttribute> config)
+    public Query(IOptions<DataBaseAttribute> config)
     {
         _recordsServieces = new RecordsServieces(config);
     }
@@ -21,5 +21,5 @@ public class Query
     public async Task<ResponseWithData<List<Record>>> FetchAllRecords()
     {
         return await _recordsServieces.GetAllRecordsAsync();
-    } 
+    }
 }
