@@ -45,6 +45,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "HotChocolate.AspNetCore": {
+              "target": "Package",
+              "version": "[13.4.0, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.20.0, )"

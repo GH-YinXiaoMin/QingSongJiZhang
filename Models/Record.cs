@@ -14,6 +14,6 @@ public class RecordWithoutId
 
 public class Record : RecordWithoutId
 {
-    public string Id { get; set; } = string.Empty;
+    [BsonId][BsonRepresentation(BsonType.ObjectId)]public string Id { get; set; } = string.Empty;
 
 }
