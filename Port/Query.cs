@@ -12,9 +12,9 @@ public class Query
 {
     private readonly RecordsServieces _recordsServieces;
 
-    public Query(IOptions<DataBaseAttribute> config)
+    public Query(RecordsServieces recordsServieces)
     {
-        _recordsServieces = new RecordsServieces(config);
+        _recordsServieces = recordsServieces;
     }
 
     [GraphQLDescription("获取所有records")]
@@ -22,4 +22,5 @@ public class Query
     {
         return await _recordsServieces.GetAllRecordsAsync();
     }
+
 }

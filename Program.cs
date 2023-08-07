@@ -8,6 +8,8 @@ builder.Services.Configure<DataBaseAttribute>(builder.Configuration.GetSection("
 
 builder.Services.AddSingleton<RecordsServieces>();
 
+builder.Services.AddHttpContextAccessor();
+
 builder.Services.AddGraphQLServer()
                 .AddQueryType<Query>()
                 .AddMutationType<Mutation>();

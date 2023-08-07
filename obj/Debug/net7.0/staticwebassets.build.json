@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "Hash": "IDbebI5famSvKcproCRjBknGxhgpsaofSCk7MDU0occ=",
+  "Hash": "5JQkbfpqB7S4MoLEq7o9RU+6qe9EQMh93GkyUTB8Qqc=",
   "Source": "QingSongJiZhang",
   "BasePath": "_content/QingSongJiZhang",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [
-    {
-      "Name": "QingSongJiZhang\\wwwroot",
-      "Source": "QingSongJiZhang",
-      "ContentRoot": "F:\\QingSongJiZhang\\wwwroot\\",
-      "BasePath": "_content/QingSongJiZhang",
-      "Pattern": "**"
-    }
-  ],
+  "DiscoveryPatterns": [],
   "Assets": [
     {
-      "Identity": "F:\\QingSongJiZhang\\obj\\Debug\\net7.0\\scopedcss\\bundle\\QingSongJiZhang.styles.css",
+      "Identity": "C:\\Users\\VisMontain\\Desktop\\qsjz\\QingSongJiZhang\\obj\\Debug\\net7.0\\scopedcss\\bundle\\QingSongJiZhang.styles.css",
       "SourceId": "QingSongJiZhang",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\QingSongJiZhang\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\VisMontain\\Desktop\\qsjz\\QingSongJiZhang\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/QingSongJiZhang",
       "RelativePath": "QingSongJiZhang.styles.css",
       "AssetKind": "All",
@@ -31,13 +23,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\QingSongJiZhang\\obj\\Debug\\net7.0\\scopedcss\\bundle\\QingSongJiZhang.styles.css"
+      "OriginalItemSpec": "C:\\Users\\VisMontain\\Desktop\\qsjz\\QingSongJiZhang\\obj\\Debug\\net7.0\\scopedcss\\bundle\\QingSongJiZhang.styles.css"
     },
     {
-      "Identity": "F:\\QingSongJiZhang\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\QingSongJiZhang.bundle.scp.css",
+      "Identity": "C:\\Users\\VisMontain\\Desktop\\qsjz\\QingSongJiZhang\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\QingSongJiZhang.bundle.scp.css",
       "SourceId": "QingSongJiZhang",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\QingSongJiZhang\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\VisMontain\\Desktop\\qsjz\\QingSongJiZhang\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/QingSongJiZhang",
       "RelativePath": "QingSongJiZhang.bundle.scp.css",
       "AssetKind": "All",
@@ -48,7 +40,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\QingSongJiZhang\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\QingSongJiZhang.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\VisMontain\\Desktop\\qsjz\\QingSongJiZhang\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\QingSongJiZhang.bundle.scp.css"
     }
   ]
 }

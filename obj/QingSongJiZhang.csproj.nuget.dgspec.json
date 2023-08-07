@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\QingSongJiZhang\\QingSongJiZhang.csproj": {}
+    "C:\\Users\\VisMontain\\Desktop\\qsjz\\QingSongJiZhang\\QingSongJiZhang.csproj": {}
   },
   "projects": {
-    "F:\\QingSongJiZhang\\QingSongJiZhang.csproj": {
+    "C:\\Users\\VisMontain\\Desktop\\qsjz\\QingSongJiZhang\\QingSongJiZhang.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\QingSongJiZhang\\QingSongJiZhang.csproj",
+        "projectUniqueName": "C:\\Users\\VisMontain\\Desktop\\qsjz\\QingSongJiZhang\\QingSongJiZhang.csproj",
         "projectName": "QingSongJiZhang",
-        "projectPath": "F:\\QingSongJiZhang\\QingSongJiZhang.csproj",
-        "packagesPath": "C:\\Users\\yxm\\.nuget\\packages\\",
-        "outputPath": "F:\\QingSongJiZhang\\obj\\",
+        "projectPath": "C:\\Users\\VisMontain\\Desktop\\qsjz\\QingSongJiZhang\\QingSongJiZhang.csproj",
+        "packagesPath": "C:\\Users\\VisMontain\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VisMontain\\Desktop\\qsjz\\QingSongJiZhang\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\yxm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\VisMontain\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

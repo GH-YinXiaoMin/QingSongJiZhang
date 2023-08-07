@@ -9,9 +9,9 @@ namespace QingSongJiZhang.Port;
 public class Mutation
 {
     private readonly RecordsServieces _recordsServieces;
-    public Mutation(IOptions<DataBaseAttribute> config)
+    public Mutation(RecordsServieces recordsServieces)
     {
-        _recordsServieces = new RecordsServieces(config);
+        _recordsServieces = recordsServieces;
     }
 
     public async Task<Response> CreatOneRecord(RecordWithoutId record)
